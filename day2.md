@@ -27,7 +27,9 @@ questions in mind
  ans -- so the answere to this question is very simple it is like an "version control system " this sounds like a very 
  heavy word all in all but it is not so a version control system is the one which helps in tracking all the changes are being made 
  by the peole who are contributing into the project and so to ensure the complete history of git and also the safe experinmentation also helps 
- 
+
+#day 2 -- context managers
+
 
 
 
