@@ -16,4 +16,7 @@ content = await file.read()
 return content 
 
 async def main():
-content = await read_file()
+content = await read_file('script.txt')
+print(content)
+asyncio.run(main())
+
