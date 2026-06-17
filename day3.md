@@ -1,0 +1,10 @@
+## day 3 we would be talking about async await and asyncho 
+--so async await function is also used in python as diffrent from the 
+javascript according to which the async and await function is being used 
+to it provides high performance and structured code 
+--in using this library such as asyncho is being used first 
+--the explaination is in such a way that the async function is being used so that the function 
+calls such as an api call or the database queries could never stop the runnig code so it saves 
+resources as well as memory of the code .
+-- the example of some of the async await function is as follows (async file reader + api caller)
+-- example - 
