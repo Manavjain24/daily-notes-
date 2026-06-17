@@ -7,16 +7,20 @@ to it provides high performance and structured code
 calls such as an api call or the database queries could never stop the runnig code so it saves 
 resources as well as memory of the code .
 -- the example of some of the async await function is as follows (async file reader + api caller)
--- example - '
+-- example - this is only async file reader
 import asyncio
-impoert aiofiles
+import aiofiles
 async def read_files()
 async with aiofiles.open (C:\Users\Pranvika Jain\Downloads\script.txt,mode = 'r') as file:
 content = await file.read()
 return content 
-
 async def main():
 content = await read_file('script.txt')
 print(content)
 asyncio.run(main())
+this is for async file reader+ api caller
+import asyncio 
+import aiofiles
+import httpx
+async def fetch_data(client)
 
