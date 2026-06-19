@@ -6,3 +6,8 @@ example -- age: int = 23
 def greet(name :str) -> str 
 return f"hello ,{name} !"
 in this as you have seen the function return a string in this 
+also example 2 -- def adding(x: int , y : int ) -> int 
+return x+y
+
+aslo example 3 -- def substract (z:int , m:int)->int
+return z-m
