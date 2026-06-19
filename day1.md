@@ -10,4 +10,7 @@ also example 2 -- def adding(x: int , y : int ) -> int
 return x+y
 
 aslo example 3 -- def substract (z:int , m:int)->int
-return z-m
+return z-m'
+
+also example 4 -- def intrest(principle : int , rate : float , time : int )-> float
+return principle * rate * time / 100
