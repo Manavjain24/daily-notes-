@@ -29,6 +29,8 @@ questions in mind
  by the peole who are contributing into the project and so to ensure the complete history of git and also the safe experinmentation also helps 
 
 #day 2 -- context managers
+in this the context managers are being used so that it provides neat way to automatically setup and clean up resources 
+
 
 
 
