@@ -15,7 +15,7 @@ return z-m'
 also example 4 -- def intrest(principle : int , rate : float , time : int )-> float
 return principle * rate * time / 100
 
-in the second part we would be talking about dataclasses in this the reduction of the size of the class is being
+#in the second part we would be talking about dataclasses in this the reduction of the size of the class is being
 done in such a way that the repetative action that are taken again and again those sizes are being reduced 
 as an example -- from dataclasses import dataclass 
 @dataclass
@@ -23,3 +23,5 @@ class Product:
 name : str 
 price : float
 quantity : int = 0 
+this is being done by dunder methods like double underscore __init__() these methods are being used 
+so that the dataclasses could work in the backend
