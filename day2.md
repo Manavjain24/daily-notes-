@@ -30,6 +30,11 @@ questions in mind
 
 #day 2 -- context managers
 in this the context managers are being used so that it provides neat way to automatically setup and clean up resources 
+so in python context managers helps to free up the space in such a way that it does not wate the resources required 
+there are two ways in which it is being used in here such as __enter()__,__exit()__
+3)enter is used to open the file 
+4)exit is being used to cleans up the resource 
+
 
 
 
