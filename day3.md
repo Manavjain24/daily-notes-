@@ -24,3 +24,8 @@ import aiofiles
 import httpx
 async def fetch_data(client)
 
+
+
+
+
+
