@@ -2,3 +2,5 @@ joins are used to create a combine table having combine information of two diffr
 inner joins -- this only useful to show matching rows
 left joins -- this is only used to show matching values from the left tables (the whole left tables)
 right joins -- this is only used to show matching values from the right tables (the whole right tables)
+full joins -- this is being used to show everything from both the tables 
+aggregate function -- this is the function in 
