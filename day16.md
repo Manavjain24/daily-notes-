@@ -1,0 +1,9 @@
+--postgresql is hen your data is being stored permanentely.
+--docker is being used to run postgresql 
+-- postgresql is being used to store the data permanentely 
+-- python communicates with postgresql through sqlalchemy 
+-- so main is the configuration of the application according to which the settings that the app needs to run so when you so here the main configuration of the appplication is being 
+-- so configuration is basically the things that without them we cannot run the application like for the fitness app without database , secret code 
+-- all the modes do inherit from the base because base properties are being applied everywhere 
+-- session is basically the unit of seprating workouts
+-- user is the person who is using the application so user.py appliccation should mainly be consisting of the passwords , name , 
