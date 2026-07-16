@@ -1,0 +1,8 @@
+-- so we are using docker using that we are using to store postgresql ata would be stored in docker so the data could be accessed by fastapi 
+-- docker run --name fittrack-db `
+-e POSTGRES_USER=fittrack `
+-e POSTGRES_PASSWORD=fittrack `
+-e POSTGRES_DB=fittrack `
+-p 5432:5432 `
+-d postgres:16
+-- these are the steps being used 
