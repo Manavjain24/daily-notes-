@@ -8,3 +8,13 @@ if (num in freq):
 return true 
 freq[num] = 1 
 return false 
+
+class Solution :
+def valid_Anagram(self , s:str,t:str) ->bool:
+freq1 ={}
+freq2 = {}
+for ch in s : 
+freq1[ch] = freq1.get(ch,0) +1 
+for ch in t : 
+freq2[ch] = freq2.get(ch,0) +1 
+return freq1 == freq2 
