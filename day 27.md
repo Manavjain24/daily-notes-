@@ -7,4 +7,8 @@ all the specific work being required
 so we can start the project by having the command -- django project startproject --project_name-- 
 4) so settings.py has configuration of the whole application 
 5) some important variables being used -- 1- secret key , 2- debug = true 
-6) 
+6)  some points regarding installed apps 
+a) django sirf unhi apps ke models ko load karta hai jo installed apps , 
+b) vo makemigration migration banayega hi nahi kyuki vo installed  apps mein nahi hai 
+c)django ke admin mein jab hi dikhega jab installed apps mein ho aur admin.py mein bhi 
+7)
