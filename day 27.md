@@ -11,4 +11,22 @@ so we can start the project by having the command -- django project startproject
 a) django sirf unhi apps ke models ko load karta hai jo installed apps , 
 b) vo makemigration migration banayega hi nahi kyuki vo installed  apps mein nahi hai 
 c)django ke admin mein jab hi dikhega jab installed apps mein ho aur admin.py mein bhi 
-7)
+7) URL ROUTING -- so how does django knows what could be the code working in this it does not make 
+the response it sends the response at the correct place as well 
+form django.contrib import admin 
+from django.urls import path 
+from . import views 
+
+urlpatterns = {
+    path("admin/",admin.site.urls)
+    path("products/",views.products)
+}
+ the flow of the thing is 
+ URL
+   ↓
+View↓
+HTML / JSON / Redirect / Error
+
+8)  if the name or the page is being present in the url then only it would be shown in the page opened in the browser rest it would be changing the page 404 not found 
+9) Now lets see what are views -- views are being used to receive a request make processing and also returns response 
+10)
