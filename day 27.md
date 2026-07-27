@@ -126,3 +126,32 @@ Browser
     price = models.IntegerField()
 
 }
+python manage.py makemigrations 
+python manage.py migrate
+21) django admin is one of the most powerful features of django according to which there are various changes being made in the django without any frontend with the given dashboard 
+22) how to enable admin 
+example -- 1)class Product(models.Model):
+name = models.CharField(max_length = 100)
+price = models.IntegerField()
+2)from django.contrib import admin 
+from .models import product 
+admin.site.register(Product)
+admin.site.register(Product)
+Product Model
+      │
+      ▼
+admin.site.register(Product)
+      │
+      ▼
+Admin Panel
+      │
+      ▼
+CRUD Operations
+      │
+      ▼
+ORM
+      │
+      ▼
+Database
+
+
