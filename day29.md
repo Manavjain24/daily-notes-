@@ -57,5 +57,35 @@ Browser
 {{ }} → Variable print karta hai.
 {% %} → Logic/control statements ke liye hota hai (jaise for, if, block, etc.).
 
+products = {
+    "mouse",
+    "keyboard",
+    "laptop"
+}
 
+<ul>{%for product in products%}
+<li>{{product}}</li>
+{%endfor%}
+</ul>
+now there is a consiton called as if condition according to which 
+
+--Some of them are Static fIles - according to this if there is a files that does not chnages are called as static files these are like style.css 
+--Browser
+   │
+Request home page
+   │
+Django
+   │
+Returns home.html
+   │
+Browser sees:
+
+<link href="style.css">
+<img src="logo.png">
+
+   │
+Browser requests those files separately
+   │
+Django serves static files
+-- this is the flow of how static files are being extracted 
 
