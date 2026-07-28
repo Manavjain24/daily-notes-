@@ -129,9 +129,10 @@ HttpResponse
     ▼
 Browser
 
-18) so waht is an orm an  orm is like an language converter in which we can write the code in python and then it gets converted into sql language in this the thing is it connects to database and whrn the database is closed then the data would not be extracted 
+18) so waht is an orm an  orm is like an language converter in which we can write the code in python and then it gets converted into sql language in this the thing is it connects to database and when the database is closed then the data would not be extracted 
 
 19) so in this the thing is makemigration is being used to make the blueprint of how things are and migration is being used to blueprint executed and also database being made
+
 20)example -- class Product(models.Model){
     name = models.CharField(max_length=100)
     price = models.IntegerField()
