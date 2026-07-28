@@ -62,3 +62,4 @@ ManyToManyField	✅ prefetch_related()
 Yaad rakhne ka shortcut:
 select = "Ek hi related object" (FK / OneToOne)
 prefetch = "Bahut saare related objects" (ManyToMany)
+
