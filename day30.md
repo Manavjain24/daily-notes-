@@ -23,4 +23,12 @@ def LoginForm(forms.Form):
 name = forms.CharField()
 password = forms.CharField()
 
-4)
+4) so forms acts to validate data views are being used to make the logic of the cod e true
+nos the example is -- class LoginForm(forms.Form):
+username = forms.CharField(required = true)
+password = forms.Charfield(required = true)
+
+5) so here we would be now talking about drf classes 
+6) the main question is why is it even required to have drf classes?
+so its very simple as react and the database cannot talk to each other directly as there are various security reason and as well as passwords leaks may occur in order to prevent that the django has an serializer model that act as a language converter for converting react(that is javascript) into django(python framework) both can communicate simuntaneously and vice versa so this class that 
+example -- class ModelSerializer(Serializers.MODELSSERIALIZERS)

@@ -19,7 +19,7 @@ return httpResponse("Hello")
 
 -- these are class based views in this we could create a class 
 eg -- class homeview(view):
-def get(sekf,request)
+def get(self,request)
 | Function-Based View           | Class-Based View                    |
 | ----------------------------- | ----------------------------------- |
 | Uses `def`                    | Uses `class`                        |
@@ -87,5 +87,6 @@ Browser sees:
 Browser requests those files separately
    │
 Django serves static files
+
 -- this is the flow of how static files are being extracted 
 
