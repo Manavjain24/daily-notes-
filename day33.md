@@ -24,5 +24,18 @@ for (i in the range of -1,n-2,-1)
 successor[i] = successor[i-1] * ans [i-1]
 e) ans [i] = predecessor*successor
 
-2) Valid palindrome along with spaces
-a) in this we see that there 
+2) Valid palindrome along with spaces - in this we use two pointer approach 
+a) in this we see that there the reverse of a string is equal to that string or not 
+b) left = 0 
+right = len(s) - 1
+while left < right 
+while left < right and not s[left].isalnum():
+left += 1 
+while left < right and not s[left].isalnum():
+right -= 1 
+if s[left].lower() != s[right].lower() 
+return false 
+
+left += 1
+right -= 1 
+return true
