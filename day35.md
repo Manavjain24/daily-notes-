@@ -31,3 +31,32 @@ c) cursorpagination -- Used for very large datasets like Instagram, Twitter, Lin
 so in cursorpagination the data gets regularly being updated and also the data is being retreived on the latest basis 
 ----------------------------------------------------------------------------------------------------
 5) Filtering 
+a) so in this we would be seeing how filtering of data works the filtering of data is being done 
+on the basis of the filters being there in the query provided also there are some of the 
+things like the orm and databse are being used to make this filter 
+Router
+    │
+Routes URL
+    │
+ViewSet
+    │
+Calls ORM
+    │
+ORM
+    │
+Generates SQL
+    │
+Database
+    │
+Filters Data
+    │
+ORM
+    │
+Serializer
+    │
+JSON
+    │
+React
+
+this is actually the flow of it 
+-------------------------------------------------------------------------------------------------
