@@ -114,4 +114,38 @@ Credentials handling
 | Browser stores Session ID cookie     | Client stores token | Client stores JWT                   |
 | Best for traditional Django websites | Good for APIs       | Best for modern React + Django apps |
 
--- 
+-- the question is where is the jwt stored the jwt is being stored in the react browser itself it is being stored as a result not in the database this is how the flow works 
+User Login
+      │
+      ▼
+React
+      │
+Username + Password
+      ▼
+Django
+      │
+Authentication
+      ▼
+JWT Generated
+      │
+      ▼
+React Stores JWT
+      │
+Future Requests
+      ▼
+Authorization: Bearer <JWT>
+      │
+      ▼
+Django
+
+so this is how it stores it really 
+React stores it on the client (commonly local storage, session storage, or another secure client-side storage strategy depending on the application).
+
+so here is how it is working 
+| Method  | Client Stores | Server Stores              |
+| ------- | ------------- | -------------------------- |
+| Session | Session ID    | Session                    |
+| Token   | Token         | Token                      |
+| JWT     | JWT           | Secret Key (to verify JWT) |
+
+-- so the thing with jwt is that if it is being accessed by someone else account then they would be accessing the data and there is no privacy like if someone else get your jwt token they can access your profile and as a result   
